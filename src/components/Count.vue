@@ -1,7 +1,7 @@
     <template>
     <div>
             <h3>当前x的值为:{{sum}}</h3>
-            <h3>当前x的乘以10值为:{{bigSum}}</h3>
+            <h3>当前x的乘以10值最终是:{{bigSum}}</h3>
             <h3>我在{{school}}学习{{subject}}</h3>
             <select v-model.number="n">
                 <option value="1">1</option>
