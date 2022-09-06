@@ -1,9 +1,9 @@
 <template>
-    <h2>我是Home组件</h2>
+    <h2>我是About组件</h2>
 </template>
 
 <script>
 export default {
-    name:'Hoem'
+    name:'About'
 }
 </script>
