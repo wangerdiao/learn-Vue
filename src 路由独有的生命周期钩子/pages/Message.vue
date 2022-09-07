@@ -6,7 +6,7 @@
             <!-- <router-link :to="`/home/message/detail/${m.id}/${m.title}`">{{m.title}}</router-link>&nbsp;&nbsp; -->
             <!-- 第二种跳转路由并携带params参数,to的对象写法 -->
             <router-link :to="{
-                name:'xinwen', //坑点，用params参数就必须写name命名的路由，写path不会进行路由跳转
+                name:'xiaoxi', //坑点，用params参数就必须写name命名的路由，写path不会进行路由跳转
                 params:{
                     id:m.id,
                     title:m.title
